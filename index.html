@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./dist/output.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+
+
+  <title>IGSTUDIO</title>
+</head>
+
+<body class="bg-[#CE90F2] text-white flex justify-center lg:pt-[113px]">
+  <!-- Wrapper -->
+  <div class="wrapper bg-black w-screen lg:max-h-full lg:h-[847px]  pt-5 lg:pt-[53px] lg:w-[1440px]">
+    <!-- Container -->
+
+    <div class="container flex flex-col justify-center px-2  lg:w-[1136px] lg:h-[656px]">
+      <!-- header -->
+
+      <header class="group block relative  w-full h-[50px] flex justify-between items-center ">
+        <a href="#"><img src="./src/img/icon/logo.svg" alt="Logo"></a>
+        <div class="space-y-2 w-[40px] h-[40px] bg-silver rounded-[40px] lg:hidden flex justify-center items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 stroke-black" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </div>
+        <ul class="max-[1023px]:absolute max-[1023px]:-z-10 max-[1023px]:group-hover:z-30 max-[1023px]:text-center max-[1023px]:h-[350px] max-[1023px]:w-full max-[1023px]:bg-black
+        max-[420px]:top-[45px]
+          left-0 top-[50px] flex flex-col justify-around items-center
+          lg:gap-10 lg:static lg:flex-row ">
+
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Attorneys</a></li>
+          <li><a href="#">Practice Areas</a></li>
+          <li><a href="#">About Us</a></li>
+          <a class="min-[420px]:hidden bg-gray-light border px-8 py-3" href="#">Contact Now</a>
+        </ul>
+
+        <a class="max-[420px]:hidden border px-8 py-3" href="#">Contact Now</a>
+      </header>
+
+      <!-- END HEADER -->
+
+      <!-- MAIN BLOCK -->
+      <div class="  w-full h-full flex flex-col items-center lg:flex-row lg:justify-between lg:items-end ">
+        <!-- LEFT BLOCK -->
+        <div
+          class="order-2 lg:order-1  w-full h-full lg:h-[575px] xl:h-[440px] md:w-[573px]  flex flex-col justify-between items-center lg:items-start lg:mb-[20px] ">
+          <h1 class="text-[66px] leading-[97px]">You don’t have to<br>
+            <span class="font-bold">Fight them Alone.</span>
+          </h1>
+          <p class="text-[18px] font-medium opacity-[0.3] leading-7 py-[36px]">Lorem ipsum dolor sit amet consectetur
+            adipiscing
+            elit
+            blandit, curabitur
+            sodales
+            conubia ut
+            inceptos
+            faucibus himenaeos tortor eget, hac massa gravida arcu interdum proin curae.</p>
+          <form
+            class="relative max-w-full w-[438px] min-[420px]:h-[74px] h-full flex flex-col items-center justify-center">
+            <input
+              class="min-[420px]:absolute max-[420px]:mb-[20px] bg-white bg-opacity-[0.1] bg-email bg-no-repeat bg-[center_left_28px] py-6 pl-[62px] w-full h-[74px] rounded-[43px]"
+              type="email" id="email" placeholder="Enter your email address">
+            <button type="submit" class="bg-yellow inline-block rounded-[43px] w-full h-[62px]
+            min-[420px]:absolute min-[420px]:z-10 min-[420px]:w-[137px] min-[420px]:h-[62px] min-[420px]:right-2 ">
+              Let’s Talk</button>
+          </form>
+        </div>
+        <!-- END LEFT BLOCK -->
+        <!-- RIGHT BLOCK -->
+        <div
+          class="order-1 lg:order-2 relative overflow-hidden  max-h-full h-[595px] max-w-full flex items-end rounded-b-[55px]">
+          <img class="absolute z-10 bottom-0 right-[-13px]" src="./src/img/pictures/person.png" alt="Person">
+          <img src="./src/img/icon/rectangle.svg" alt="rectangle">
+        </div>
+        <!-- END RIGHT BLOCK -->
+      </div>
+      <!-- END MAIN BLOCK -->
+    </div>
+
+    <!-- END Container -->
+  </div>
+  <!-- END Wrapper -->
+
+</body>
+
+</html>

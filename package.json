@@ -1,0 +1,26 @@
+{
+  "name": "13-igstudio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently --kill-others \"vite\" \"npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tailwind": "npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^4.0.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "concurrently": "^7.6.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "vite-plugin-handlebars": "^1.6.0"
+  }
+}
